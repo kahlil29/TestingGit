@@ -1,7 +1,7 @@
 from dulwich.repo import Repo
 from os import mkdir
 import os
-os.chdir("/home/shubham/Documents")
+os.chdir("/home/vac/Documents")
 mkdir("dulwichtest")
 repo = Repo.init("dulwichtest")
 repo
@@ -12,4 +12,3 @@ f = open('dulwichtest/foo', 'w')
 f.write("monty")
 f.close()
 repo.stage(["foo"])
-
