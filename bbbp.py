@@ -1,8 +1,16 @@
-current_file = "hello123"
+
 
 
 list_of_files = {}
-if list_of_files.has_key(hello123):
-	print("exists")
-	#list_of_files['hello123'] = 
-else print("doesn't exist")
+#list_of_files['hello123']=4
+
+if list_of_files.has_key('hello123'):
+	# print("exists\n")
+	# print("Value is ", list_of_files['hello123'])
+	list_of_files['hello123'] +=1
+	#print("After increment, value is ", list_of_files['hello123'])
+else:
+	list_of_files['hello1234']=1
+	#print("The value of hello1234 is ", list_of_files['hello1234'], "because this is the first commit")
+
+#hello
