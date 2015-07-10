@@ -21,17 +21,5 @@ print("list of keys: ", list_of_files.keys())
 
     
 
-
-
-
-
-
-
-
-
-
-
-
-
-    
+ 
 
