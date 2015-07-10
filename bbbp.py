@@ -14,6 +14,11 @@ list_of_files['hello123']=4
 # 	list_of_files['hello1234']=1
 # 	#print("The value of hello1234 is ", list_of_files['hello1234'], "because this is the first commit")
 
+
+
+
+
+
 # #hello
 
 print("using the variable the value is", list_of_files[variable1])
@@ -21,8 +26,7 @@ print("list of keys: ", list_of_files.keys())
 
 
 
-a
-b
+
 
 
 
