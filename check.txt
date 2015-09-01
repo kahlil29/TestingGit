@@ -28,3 +28,7 @@ gs
 g
 
 ajsbcsa;c
+c
+asc
+s
+sc
