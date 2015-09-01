@@ -1,9 +1,9 @@
 import subprocess
 import os
-print pwd
+
 #print subprocess.Popen("git push origin master", cwd = , shell=True, stdout=subprocess.PIPE).stdout.read()
 
-# pwd = subprocess.Popen("pwd", shell=True, stdout=subprocess.PIPE).stdout.read()
+print subprocess.Popen("git push origin master ", cwd = r'/home/kahlil/TestingGit', shell=True, stdout=subprocess.PIPE).stdout.read()
 # print pwd
 # cwd = pwd[:-1]	#get the directory without file name and extra new line char to use in popen
 # pwd = cwd
