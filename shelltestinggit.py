@@ -7,13 +7,13 @@ print pwd
 cwd = pwd[:-1]	#get the directory without file name and extra new line char to use in popen
 pwd = cwd
 print cwd
-print subprocess.Popen("git status", cwd = pwd, shell=True, stdout=subprocess.PIPE).stdout.read()
+print subprocess.Popen("git status", cwd = cwd, shell=True, stdout=subprocess.PIPE).stdout.read()
 current_file = str(os.path.abspath(__file__))		#directory including filename for add
 print subprocess.Popen("git add "+current_file, cwd = pwd, shell=True, stdout=subprocess.PIPE).stdout.read()
 print subprocess.Popen("git status", cwd = pwd, shell=True, stdout=subprocess.PIPE).stdout.read()
 print subprocess.Popen("git commit -m\"commit to git staging area\"", cwd = pwd, shell=True, stdout=subprocess.PIPE).stdout.read()
 print subprocess.Popen("git pull origin master", cwd = pwd, shell=True, stdout=subprocess.PIPE).stdout.read()
-print subprocess.Popen("git push origin master", cwd = pwd, shell=True, stdout=subprocess.PIPE).stdout.read()
+print subprocess.Popen("git push origin master", cwd = cwd, shell=True, stdout=subprocess.PIPE).stdout.read()
 
 
 # a = str("helloworld")
