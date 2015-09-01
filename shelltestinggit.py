@@ -16,6 +16,10 @@ print subprocess.Popen("git pull origin master", cwd = pwd, shell=True, stdout=s
 print subprocess.Popen("git push origin master", cwd = cwd, shell=True, stdout=subprocess.PIPE).stdout.read()
 
 
+
+
+
+
 # a = str("helloworld")
 # a = a [:-2]
 # print a
