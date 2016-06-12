@@ -8,4 +8,6 @@ a quick brown  fox j ump escadshello world alksnclaskd o  ver th
 
 testing text to test plugin does this affect git stuff?
 
+testing if push is async here
+
 akcb sdvsdvde lazy dog
