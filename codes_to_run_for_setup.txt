@@ -1,2 +1,0 @@
-sudo apt-get install python3-pip
-PYTHONUSERBASE="/home/vac/.config/sublime-text-3/Packages/User" pip3 install --user gitpython
