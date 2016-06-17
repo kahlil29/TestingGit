@@ -1,4 +1,0 @@
-Kahlil
-10eaa45d-7051-4701-95b9-0dd2e01ff253
- Average Fault tolerance is used to get average time of all the clocks and return how much deviation is okay from the average 
-2016-06-17 13:01:53
