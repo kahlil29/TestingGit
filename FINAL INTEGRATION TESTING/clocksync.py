@@ -69,3 +69,4 @@ print("User 1 time needs to be adjusted by " + user1_value +str(user1_correction
 print("User 2 time needs to be adjusted by " + user2_value + str(user2_correction_hours) + ":"+str(user2_correction_mins))
 
 
+ 
