@@ -1,0 +1,4 @@
+Kahlil
+efdb448a-3185-4185-837a-abe5bf8ca9f8
+ This extracts only the hour component of the timestamp returned by the time module
+2016-06-17 12:45:35
