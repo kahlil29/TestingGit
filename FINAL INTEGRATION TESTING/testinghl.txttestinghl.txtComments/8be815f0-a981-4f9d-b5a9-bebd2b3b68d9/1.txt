@@ -1,3 +1,0 @@
-(13, 22)
-8be815f0-a981-4f9d-b5a9-bebd2b3b68d9
-False
