@@ -1,4 +1,4 @@
-	import time
+import time
 
 sys_hours = int(time.strftime("%H"))
 sys_mins = int(time.strftime("%M"))
