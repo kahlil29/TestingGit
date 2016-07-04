@@ -1,4 +1,0 @@
-SSKUltra
-ef0c7307-e042-4a64-8f5c-407c70f8ba31
-this is the math library.
-2016-07-04 15:48:19
